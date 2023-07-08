@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Ancient';
+    src: url(../fonts/MedievalSharp-Regular.ttf)
+}
+
+body {
+    font-family: Poppins;
+    margin:0vw;
+    padding:0vw;
+    background-color: rgb(71, 29, 29);
+}
+
+header h1 {
+    font-family: Ancient;
+    font-size: 4em;
+    color: gold;
+    text-shadow: rgba(0, 0, 0, 0.233) 0.2vw 0.2vw;
+    margin:0;
+    padding:0;
+    padding-bottom:2vw;
+}
+
+header {
+    text-align: center;
+    padding:2vw;
+    background: linear-gradient(100deg, rgb(48, 141, 48), rgb(129, 201, 120),rgb(53, 114, 53)); 
+    margin-left:2%;
+    margin-right: 2%;
+    border-bottom-left-radius:15%;
+    border-bottom-right-radius:15%;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 1.2em;
+    padding:1vw;
+    padding-right: 2vw;
+    color: black;
+    display: inline;
+    background-color: rgba(255, 253, 239, 0.541);
+    border-radius: 7%;
+
+}
+
+header a:hover {
+    transition: 0.2s;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+#inicio{
+    margin-left: 20%;
+    margin-right: 20%;
+    color: azure;
+    margin-top: 10%;
+    
+}
+#inicio p{
+    padding:1vw;
+    padding-bottom: 3vw;
+    background-color: rgba(0, 0, 0, 0.541);
+    border-radius:5% ;
+}
+#inicio h1{
+    font-size:3vw;
+    background-color: rgba(0, 0, 0, 0.507);
+    border-radius:5% ;
+}
+.cabe-ini{
+    background-image: url(../images/838484.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+#explain{
+    margin-top: 20%;
+}
+#map{
+    margin-top:10%;
+    background-image: url(../images/pexels-francesco-ungaro-998653.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    color:azure;
+
+    
+}
+#map h1{
+    background-color: rgba(0, 0, 0, 0.418);
+    font-size: 4vw;
+}
+#map img{
+    width:55%;
+    margin-left:20%;
+    margin-right:20%;
+}
+#map p{
+    text-align: justify;
+    margin-left:20%;
+    margin-right:20%;
+    background-color: rgba(0, 0, 0, 0.493);
+    padding:2vw;
+    border-radius: 2%;
+}
+footer{
+    text-align: center;
+    color:azure
+}
